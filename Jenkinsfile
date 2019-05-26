@@ -17,7 +17,7 @@ pipeline {
     }
     stage('login') {
       steps {
-        sh '''docker login -u="anuphnu" -p="Notallow_123456"'''
+        sh '''docker login -u="anup1234" -p="hello@1234"'''
       }
     }
     stage('push docker images') {
